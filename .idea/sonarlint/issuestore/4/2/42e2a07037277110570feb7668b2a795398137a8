@@ -1,0 +1,4 @@
+
+fpython:S2208"GImport only needed names or import the module and then use its members.(ÒëªØ8€¾æÎŠ1
+=python:S125"Remove this commented out code.(­‹šÖ8ü°äÓŠ1
+Opython:S5806"+Rename this variable; it shadows a builtin.(ö»Úùûÿÿÿÿ8ÜÔäÓŠ1
