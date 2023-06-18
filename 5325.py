@@ -13,5 +13,5 @@ for start in range(10):
 		i += 1
 	else:
 		ans.append([count, box[start]])
-print(*sorted(ans, reverse = True), sep = '\n')
+# print(*sorted(ans, reverse = True), sep = '\n')
 print(sorted(ans, reverse = True)[0])

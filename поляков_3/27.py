@@ -1,8 +1,8 @@
 from math import ceil
 # 409 69383
-# data = open('27_3_test.txt')
+data = open('27_3_test.txt')
 # data = open('27_3(a).txt')
-data = open('27_3(b).txt')
+# data = open('27_3(b).txt')
 conditions = list(map(int, data.readline().split()))
 n_home, km, v, dist = conditions[0], conditions[1], conditions[2], conditions[3]
 road = [0] * (km + 1)
@@ -21,4 +21,4 @@ for i in range(dist + 1, len(road) - dist - 1):
 			all_ans.append([cur_sum, i])
 		else:
 			all_ans.append([cur_sum, i - km])
-print(max(all_ans)[0])
+print((all_ans))

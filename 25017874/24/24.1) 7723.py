@@ -1,0 +1,5 @@
+st = open('7723').readline()
+st = st.replace('D', 'b').replace('R', 'b')
+st = st.replace('1', 'x').replace('8', 'x')
+st = st.replace('xxb', '*').replace('x', ' ').replace('b', '').split()
+print(len(max(st, key=len)))
